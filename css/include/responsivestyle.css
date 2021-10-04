@@ -1,0 +1,2637 @@
+  /*===== LAYOUT =====*/
+  @media screen and (min-width: 1200px) {
+    .bd-grid {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  /*===== HOME =====*/
+  @media screen and (max-width: 1080px) {
+    .img-content{
+      margin-top: 80px;
+    }
+  }
+
+  @media screen and (max-width: 980px) {
+    .home_title {
+      font-size: 50px;
+    }
+  }
+
+  @media screen and (max-width: 760px) {
+    .home_title {
+      font-size: 47px;
+    }
+  }
+
+  @media screen and (max-width: 597px) {
+    .img-content{
+      display: none;
+      opacity: 0;
+    }
+    .img-content-zoom{
+      display: flex;
+      opacity: 1;
+    }
+    .title-home{
+      flex-direction: column;
+    }
+    .home_title {
+      line-height: 150%;
+      font-size: 40px;
+      margin: 0;
+    }
+  }
+
+  @media screen and (max-width: 434px) {
+    .img-content-zoom{
+      display: none;
+      opacity: 0;
+    }
+    .img-content-zoom-2{
+      display: flex;
+      opacity: 1;
+      margin-top: 0px;
+    }
+    .home_title {
+      font-size: 35px;
+      line-height: 155%;
+      margin: 0;
+    }
+  }
+
+  /*===== BIOGRAPHY-HOME =====*/
+  @media screen and (max-width: 1128px) {
+    .biography-peta{
+      width: 54rem;
+    }
+  }
+
+  @media screen and (max-width: 940px) {
+    .title-biography,
+    .biography-paragraph{
+      margin-left: 5rem;
+    }
+    .biography-paragraph{
+      margin-right: 5rem;
+    }
+    .biography-peta{
+      margin-top: 1rem;
+      width: 48rem;
+    }
+  }
+
+  @media screen and (max-width: 830px) {
+    .biography-peta{
+      width: 40rem;
+    }
+  }
+
+  @media screen and (max-width: 678px) {
+    .title-biography,
+    .biography-paragraph{
+      margin-left: 4rem;
+    }
+    .biography-paragraph{
+      margin-right: 4rem;
+    }
+    .biography-peta{
+      margin-top: 0;
+      width: 32rem;
+    }
+  }
+
+  @media screen and (max-width: 567px) {
+    .biography-subtitle{
+      letter-spacing: 3px;
+      font-size: 18px;
+    }
+    .biography-title{
+      font-size: 30px;
+    }
+    .biography-peta{
+      width: 28rem;
+    }
+  }
+
+  @media screen and (max-width: 485px) {
+    .biography-peta{
+      width: 23rem;
+    }
+  }
+
+  @media screen and (max-width: 408px) {
+    .title-biography,
+    .biography-paragraph{
+      margin-left: 3rem;
+    }
+    .biography-paragraph{
+      margin-right: 3rem;
+    }
+    .biography-peta{
+      width: 19rem;
+    }
+    .biography-subtitle{
+      letter-spacing: 2.5px;
+      font-size: 14px;
+    }
+    .biography-title{
+      font-size: 25px;
+    }
+  }
+
+  @media screen and (max-width: 337px) {
+    .title-biography,
+    .biography-paragraph{
+      margin-left: 2rem;
+    }
+    .biography-paragraph{
+      margin-right: 2rem;
+      font-size: 12px;
+    }
+    .biography-peta{
+      width: 15rem;
+    }
+    .biography-subtitle{
+      letter-spacing: 2.5px;
+      font-size: 12px;
+    }
+    .biography-title{
+      font-size: 23px;
+    }
+  }
+
+  @media screen and (max-width: 280px) {
+    .title-biography,
+    .biography-paragraph{
+      margin-left: 2rem;
+    }
+    .biography-paragraph{
+      margin-right: 2rem;
+      font-size: 11px;
+    }
+    .biography-peta{
+      width: 15rem;
+    }
+    .biography-subtitle{
+      letter-spacing: 2.5px;
+      font-size: 12px;
+    }
+    .biography-title{
+      font-size: 20px;
+    }
+  }
+
+  /*===== COUNTER-HOME =====*/
+  @media screen and (max-width: 998px) {
+    .count-container{
+      height: 11rem;
+    }
+
+    .number-count{
+      font-size: 50px;
+    }
+
+    .budaya-text-content, .bahasa-text-content{
+      margin-left: 4.2rem;
+      margin-right: 4.2rem;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    .count-container{
+      height: 11rem;
+    }
+
+    .number-count{
+      font-size: 45px;
+    }
+
+    .budaya-text-content, .bahasa-text-content{
+      padding-left: .75rem;
+      padding-right: .75rem;
+    }
+
+    .content-count{
+      margin-right: 2rem;
+      margin-left: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 526px) {
+    .count-container{
+      height: 26rem;
+    }
+    .count-row{
+      display: flex;
+      flex-direction: column;
+    }
+    .text-count-row{
+      margin-top: -12rem;
+      display: flex;
+      flex-direction: column;
+    }
+    .content-count{
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .budaya-text-content, .bahasa-text-content{
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .bangsa-text-content, .bahasa-text-content{
+      margin-top: 5.2rem;
+    }
+  }
+
+  /*===== KEBERAGAMAN HOME =====*/
+  @media screen and (max-width: 978px) {
+    .keberagaman-row{
+      margin-left: 5rem;
+    }
+  }
+
+  @media screen and (max-width: 865px) {
+    .keberagaman-row{
+      margin-left: 3rem;
+    }
+
+    .keberagaman-title-text{
+      letter-spacing: 5px;
+      font-size: 18px;
+    }
+  
+    .keberagaman-title-text-2{
+      font-size: 30px;
+    }
+  
+    .keberagaman-title-text-3{
+      font-size: 30px;
+      margin-left: 5px;
+    }
+  }
+
+  @media screen and (max-width: 546px) {
+    .keberagaman-row{
+      margin-left: 2rem;
+    }
+
+    .keberagaman-title-text{
+      letter-spacing: 4px;
+      font-size: 14px;
+    }
+  
+    .keberagaman-title-text-2{
+      font-size: 25px;
+    }
+  
+    .keberagaman-title-text-3{
+      font-size: 25px;
+      margin-left: 5px;
+    }
+  }
+  
+  @media screen and (max-width: 378px) {
+    .keberagaman-row{
+      margin-left: 1.2rem;
+    }
+  }
+
+  /*===== GALLERY KEBERAGAMAN HOME - IMG RESPONSIVE =====*/
+  @media screen and (max-width: 1185px) {
+    .row-keberagaman-img{
+      height: 500px;
+    }
+  }
+
+  @media screen and (max-width: 1063px) {
+    .row-keberagaman-img{
+      height: 450px;
+    }
+  }
+
+  @media screen and (max-width: 985px) {
+    .row-keberagaman-img{
+      height: 430px;
+    }
+  }
+
+  @media screen and (max-width: 930px) {
+    .row-keberagaman-img{
+      height: 410px;
+    }
+  }
+
+  @media screen and (max-width: 885px) {
+    .row-keberagaman-img{
+      height: 380px;
+    }
+  }
+
+  @media screen and (max-width: 815px) {
+    .row-keberagaman-img{
+      height: 340px;
+    }
+  }
+
+  @media screen and (max-width: 815px) {
+    .row-keberagaman-img{
+      height: 340px;
+    }
+  }
+
+  @media screen and (max-width: 765px) {
+    .c-img-keberagaman{
+      grid-template-columns: repeat(2, 4fr);
+    }
+    .row-keberagaman-img{
+      height: 660px;
+    }
+  }
+
+  @media screen and (max-width: 715px) {
+    .row-keberagaman-img{
+      height: 630px;
+    }
+  }
+
+  @media screen and (max-width: 678px) {
+    .row-keberagaman-img{
+      height: 600px;
+    }
+  }
+
+  @media screen and (max-width: 614px) {
+    .row-keberagaman-img{
+      height: 560px;
+    }
+  }
+
+  @media screen and (max-width: 582px) {
+    .row-keberagaman-img{
+      height: 500px;
+    }
+  }
+
+  @media screen and (max-width: 538px) {
+    .row-keberagaman-img{
+      height: 460px;
+    }
+  }
+
+  @media screen and (max-width: 495px) {
+    .c-img-keberagaman{
+      grid-template-columns: repeat(1, 6fr);
+    }
+    .row-keberagaman-img{
+      height: 1750px;
+    }
+  }
+
+  @media screen and (max-width: 445px) {
+    .row-keberagaman-img{
+      height: 1550px;
+    }
+  }
+
+  @media screen and (max-width: 415px) {
+    .row-keberagaman-img{
+      height: 1450px;
+    }
+  }
+
+  @media screen and (max-width: 376px) {
+    .row-keberagaman-img{
+      height: 1400px;
+    }
+  }
+
+  @media screen and (max-width: 346px) {
+    .row-keberagaman-img{
+      height: 1310px;
+    }
+  }
+
+  @media screen and (max-width: 315px) {
+    .row-keberagaman-img{
+      height: 1210px;
+    }
+  }
+
+  @media screen and (max-width: 285px) {
+    .row-keberagaman-img{
+      height: 1060px;
+    }
+  }
+
+  @media screen and (max-width: 255px) {
+    .row-keberagaman-img{
+      height: 1000px;
+    }
+  }
+
+  @media screen and (max-width: 230px) {
+    .row-keberagaman-img{
+      height: 960px;
+    }
+  }
+
+  /*===== GALLERY KEBERAGAMAN HOME =====*/
+  @media screen and (max-width: 945px) {
+    .text_keberagaman{
+      padding: 0 20px 15px;
+    }
+  }
+
+  @media screen and (max-width: 876px) {
+    .k-text-title{
+      font-size: 19px;
+      margin-bottom: 10px;
+    }
+    .k-text-text{
+      font-weight: 400;
+      font-size: 12px;
+    }
+  }
+
+  @media screen and (max-width: 798px) {
+    .text_keberagaman{
+      padding: 0 20px 10px;
+    }
+    .k-text-title{
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    .k-text-text{
+      font-weight: 400;
+      font-size: 11.5px;
+    }
+  }
+
+  @media screen and (max-width: 765px) {
+    .text_keberagaman{
+      padding: 0 20px 15px;
+    }
+    .k-text-title{
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+    .k-text-text{
+      font-weight: 400;
+      font-size: 12px;
+    }
+  }
+
+  @media screen and (max-width: 638px) {
+    .text_keberagaman{
+      padding: 0 20px 13px;
+    }
+    .k-text-title{
+      font-size: 19px;
+      margin-bottom: 10px;
+    }
+    .k-text-text{
+      font-size: 11px;
+    }
+  }
+  
+  @media screen and (max-width: 495px) {
+    .text_keberagaman{
+      padding: 0 20px 22px;
+    }
+    .k-text-title{
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+    .k-text-text{
+      font-size: 12px;
+    }
+  }
+
+  @media screen and (max-width: 378px) {
+    .text_keberagaman{
+      padding: 0 20px 15px;
+    }
+    .k-text-title{
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    .k-text-text{
+      font-size: 11.5px;
+    }
+  }
+
+  @media screen and (max-width: 285px) {
+    .text_keberagaman{
+      padding: 0 15px 10px;
+    }
+    .k-text-title{
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    .k-text-text{
+      font-size: 11px;
+    }
+  }
+
+  /*===== JUMBOTRON-GALLERY =====*/
+  @media screen and (max-width: 930px) {
+    .gallery-text-jr{
+      width: 22rem;
+      margin-right: 3rem;
+    }
+    .j-img{
+      width: 290px;
+    }
+  }
+
+  @media screen and (max-width: 823px) {
+    .gallery-jr{
+      margin-top: 9.5rem;
+    }
+    .gallery-text-jr{
+      width: 20rem;
+      margin-right: 3rem;
+    }
+    .j-img{
+      width: 270px;
+    }
+  }
+  
+  @media screen and (max-width: 738px) {
+    .gallery-jr{
+      margin-top: 9.5rem;
+    }
+    .gallery-text-jr{
+      width: 17rem;
+      margin-right: 3rem;
+    }
+    .j-img{
+      width: 230px;
+    }
+    .gallery-subtitle-j{
+      font-size: 16px;
+      letter-spacing: 3px;
+    }
+    .gallery-title-j{
+      font-size: 36px;
+    }
+    .text-j{
+      font-size: 12px;
+    }
+  }
+
+  @media screen and (max-width: 623px) {
+    .gallery-jr{
+      margin-top: 11rem;
+    }
+    .gallery-text-jr{
+      width: 14rem;
+      margin-right: 3rem;
+    }
+    .j-img{
+      width: 197px;
+    }
+    .gallery-subtitle-j{
+      font-size: 14px;
+      letter-spacing: 2.5px;
+    }
+    .gallery-title-j{
+      font-size: 32px;
+    }
+    .text-j{
+      font-size: 12px;
+      line-height: 14px;
+    }
+  }
+
+  @media screen and (max-width: 523px) {
+    .gallery-jr{
+      margin-top: 5rem;
+    }
+    .gallery-jc{
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      align-self: center;
+    }
+    .gallery-text-jr{
+      height: 100%;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      width: auto;
+      margin-right: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .gallery-img-j-2{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .j-img{
+      display: none;
+      opacity: 0;
+    }
+    .j-img-2{
+      display: flex;
+      opacity: 1;
+      width: 180px;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+    .gallery-subtitle-j{
+      font-size: 14px;
+      letter-spacing: 2.5px;
+    }
+    .gallery-title-j{
+      font-size: 28px;
+    }
+    .text-j{
+      font-size: 10px;
+    }
+  }
+
+  @media screen and (max-width: 258px) {
+    .gallery-jumbotron{
+      margin-top: 5rem;
+    }
+    .gallery-jc{
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      align-self: center;
+    }
+    .gallery-text-jr{
+      padding-left: 2rem;
+      padding-right: 2rem;
+      width: auto;
+      margin-right: 0;
+    }
+    .gallery-img-j-2{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .j-img{
+      display: none;
+      opacity: 0;
+    }
+    .j-img-2{
+      display: flex;
+      opacity: 1;
+      width: 180px;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+    .gallery-subtitle-j{
+      font-size: 14px;
+      letter-spacing: 2.5px;
+    }
+    .gallery-title-j{
+      font-size: 24px;
+    }
+    .text-j{
+      font-size: 10px;
+    }
+  }
+
+  /*===== CULTURAL DIVERSITY-GALLERY =====*/
+  @media screen and (max-width: 1258px) {
+    .cultural-dr-text{
+      margin-left: 5rem;
+    }
+  }
+
+  @media screen and (max-width: 1140px) {
+    .cultural-dr-text{
+      margin-left: 5rem;
+    }
+    .slider-cd{
+      width: 30rem;
+    }
+    .slider-inner-cd{
+      width: 340%;
+    }
+  }
+
+  @media screen and (max-width: 1030px) {
+    .cultural-dr-text{
+      margin-left: 4rem;
+    }
+    .slider-cd{
+      width: 27rem;
+    }
+    .slider-inner-cd{
+      width: 380%;
+    }
+  }
+
+  @media screen and (max-width: 928px) {
+    .cultural-dr-text{
+      margin-left: 4rem;
+    }
+    .slider-cd{
+      width: 20rem;
+    }
+    .slider-inner-cd{
+      width: 490%;
+      height: 98%;
+    }
+  }
+
+  @media screen and (max-width: 827px) {
+    .cultural-dr-text{
+      margin-left: 3rem;
+    }
+    .slider-cd{
+      width: 23rem;
+    }
+    .slider-inner-cd{
+      width: 410%;
+      height: 93%;
+    }
+    .cultural-d-subtitle{
+      font-size: 25px;
+      letter-spacing: 1.75;
+    }
+    .cultural-d-title{
+      font-size: 30px;
+    }
+  }
+
+  @media screen and (max-width: 780px) {
+    .cultural-diversity{
+      height: 32rem;
+    }
+    .cultural-dc{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      position: relative;
+    }
+    .cultural-dr-text{
+      margin-left: 3rem;
+      margin-top: 3.5rem;
+      left: 0;
+      position: absolute;
+    }
+    .cultural-dr-carousel{
+      position: absolute;
+      margin-top: 11rem;
+      right: 0;
+    }
+    .slider-cd{
+      width: 35rem;
+      right: 0;
+    }
+    .slider-inner-cd{
+      width: 280%;
+      height: 93%;
+    }
+    .cultural-d-subtitle{
+      font-size: 25px;
+      letter-spacing: 1.75;
+    }
+    .cultural-d-title{
+      font-size: 30px;
+    }
+  }
+
+  @media screen and (max-width: 638px) {
+    .cultural-diversity{
+      height: 32rem;
+    }
+    .cultural-dr-text{
+      margin-left: 3rem;
+      margin-top: 3.5rem;
+    }
+    .cultural-dr-carousel{
+      margin-top: 11rem;
+    }
+    .slider-cd{
+      width: 28rem;
+    }
+    .slider-inner-cd{
+      width: 320%;
+      height: 89%;
+    }
+    .text-abs{
+      font-size: 12px;
+    }
+    .text-bcd{
+      padding: 0 12px 18px;
+    }
+    .cultural-d-subtitle{
+      font-size: 25px;
+      letter-spacing: 1.75;
+    }
+    .cultural-d-title{
+      font-size: 30px;
+    }
+  }
+
+  @media screen and (max-width: 518px) {
+    .cultural-dr-text{
+      margin-left: 3rem;
+      margin-top: 3.5rem;
+    }
+    .cultural-dr-carousel{
+      margin-top: 11rem;
+    }
+    .slider-cd{
+      width: 22rem;
+    }
+    .slider-inner-cd{
+      width: 410%;
+      height: 89%;
+    }
+    .cultural-d-subtitle{
+      font-size: 20px;
+      letter-spacing: 1.25;
+    }
+    .cultural-d-title{
+      font-size: 25px;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .cultural-dr-text{
+      margin-left: 2rem;
+      margin-top: 3.5rem;
+    }
+    .cultural-dr-carousel{
+      margin-top: 11rem;
+    }
+    .slider-cd{
+      width: 18rem;
+    }
+    .slider-inner-cd{
+      width: 480%;
+      height: 85%;
+    }
+    .text-bcd{
+      padding: 0 12px 18px;
+    }
+    .cultural-d-subtitle{
+      font-size: 20px;
+      letter-spacing: 1.25;
+    }
+    .cultural-d-title{
+      font-size: 25px;
+    }
+  }
+
+  @media screen and (max-width: 328px) {
+    .cultural-diversity{
+      height: 28rem;
+    }
+    .cultural-dr-text{
+      margin-left: 1.2rem;
+      margin-top: 3rem;
+    }
+    .cultural-dr-carousel{
+      margin-top: 9rem;
+    }
+    .slider-cd{
+      width: 15rem;
+    }
+    .slider-inner-cd{
+      width: 570%;
+      height: 85%;
+    }
+    .cultural-d-subtitle{
+      font-size: 16px;
+      letter-spacing: 1;
+    }
+    .cultural-d-title{
+      font-size: 22px;
+      margin-top: .25rem;
+    }
+  }
+
+  /*===== GALLERY CONTENT-GALLERY =====*/
+  @media screen and (max-width: 1044px) {
+    .gallery-penjelasan-slider,
+    .gallery-rumah-title,
+    .pakaian-title-slider,
+    .makanan-title-slider{
+      margin-left: 7rem;
+    }
+    .gallery-content-item-row{
+      margin-top: 4.5rem;
+    }
+    .item-slider-penjelasan{
+      width: 35rem;
+    }
+    .slider-makanan{
+      width: 21rem;
+      margin-left: 11rem;
+      margin-right: 11rem;
+    }
+    .slider-pakaian{
+      width: 28rem;
+      margin-top: -2rem;
+      margin-left: 6rem; margin-right: 6rem;
+    }
+    .button-link{
+      width: 185px;
+      height: 40px;
+    }
+  }
+
+  @media screen and (max-width: 1044px){
+    .rumah-1{
+      width: 21rem;
+      margin-left: 12rem;
+      margin-right: 12rem;
+    }
+    .rumah-2{
+      width: 26rem;
+      margin-top: -.5rem;
+      margin-left: 9rem;
+      margin-right: 9rem;
+    }
+    .rumah-3{
+      width: 24rem;
+      margin-top: -.5rem;
+      margin-left: 9.5rem;
+      margin-right: 9.5rem;
+    }
+    .rumah-4{
+      width: 26rem;
+      margin-left: 9rem;
+      margin-right: 9rem;
+    }
+    .rumah-5{
+      width: 11rem;
+      margin-top: -2rem;
+      margin-left: 15.5rem;
+      margin-right: 15.5rem;
+    }
+    .rumah-6{
+      width: 21rem;
+      margin-left: 11rem;
+      margin-right: 11rem;
+    }
+    .rumah-7{
+      width: 28rem;
+      margin-left: 8.5rem;
+      margin-right: 8.5rem;
+    }
+    .rumah-8{
+      width: 28.5rem;
+      margin-left: 7rem;
+      margin-right: 7rem;
+    }
+    .rumah-9{
+      width: 20rem;
+      margin-left: 11.5rem;
+      margin-right: 11.5rem;
+    }
+    .rumah-10{
+      width: 34rem;
+      margin-left: 5.5rem;
+      margin-right: 5.5rem;
+    }
+    .rumah-11{
+      width: 34rem;
+      margin-top: 1rem;
+      margin-left: 6rem;
+      margin-right: 6rem;
+    }
+    .rumah-12{
+      width: 24rem;
+      margin-left: 10rem;
+      margin-right: 10rem;
+    }
+    .rumah-13{
+      width: 11rem;
+      margin-left: 15.5rem;
+      margin-right: 15.5rem;
+    }
+    .rumah-14{
+      width: 26rem;
+      margin-top: 1rem;
+      margin-left: 8.5rem;
+      margin-right: 8.5rem;
+    }
+    .rumah-15{
+      width: 30rem;
+      margin-left: 7rem;
+      margin-right: 7rem;
+    }
+  
+    .rumah-16{
+      width: 30rem;
+      margin-left: 7rem;
+      margin-right: 7rem;
+    }
+    .rumah-17{
+      width: 30rem;
+      margin-left: 7rem;
+      margin-right: 7rem;
+    }
+    .rumah-18{
+      width: 24rem;
+      margin-left: 10rem;
+      margin-right: 10rem;
+    }
+    .rumah-19{
+      width: 32rem;
+      margin-left: 6rem;
+      margin-right: 6rem;
+    }
+  }
+
+  @media screen and (max-width: 930px) {
+    .button-link{
+      width: 135px;
+      height: 40px;
+    }
+    .gallery-content-item-row{
+      margin-top: 4.5rem;
+    }
+  }
+
+  @media screen and (max-width: 860px) {
+    .gallery-penjelasan-slider,
+    .gallery-rumah-title,
+    .pakaian-title-slider,
+    .makanan-title-slider{
+      margin-left: 5rem;
+    }
+    .item-slider-penjelasan{
+      width: 27rem;
+    }
+    .slider-makanan{
+      width: 20rem;
+      margin-left: 8rem;
+      margin-right: 8rem;
+    }
+    .slider-pakaian{
+      width: 27rem;
+      margin-top: -2rem;
+      margin-left: 4rem; margin-right: 4rem;
+    }
+    .button-link{
+      font-size: 14px;
+      width: 120px;
+      height: 40px;
+    }
+  }
+
+  @media screen and (max-width: 860px) {
+    .rumah-1{
+      width: 20rem;
+      margin-left: 8rem;
+      margin-right: 8rem;
+    }
+    .rumah-2{
+      width: 23rem;
+      margin-top: -.5rem;
+      margin-left: 6rem;
+      margin-right: 6rem;
+    }
+    .rumah-3{
+      width: 22rem;
+      margin-top: -.5rem;
+      margin-left: 7rem;
+      margin-right: 7rem;
+    }
+    .rumah-4{
+      width: 23rem;
+      margin-left: 7rem;
+      margin-right: 7rem;
+    }
+    .rumah-5{
+      width: 11rem;
+      margin-top: -2rem;
+      margin-left: 13rem;
+      margin-right: 13rem;
+    }
+    .rumah-6{
+      width: 19rem;
+      margin-left: 8rem;
+      margin-right: 8rem;
+    }
+    .rumah-7{
+      width: 25rem;
+      margin-left: 6rem;
+      margin-right: 6rem;
+    }
+    .rumah-8{
+      width: 25.5rem;
+      margin-left: 6rem;
+      margin-right: 6rem;
+    }
+    .rumah-9{
+      width: 18rem;
+      margin-left: 9.5rem;
+      margin-right: 9.5rem;
+    }
+    .rumah-10{
+      width: 28rem;
+      margin-left: 4.5rem;
+      margin-right: 4.5rem;
+    }
+    .rumah-11{
+      width: 28rem;
+      margin-top: 1rem;
+      margin-left: 4rem;
+      margin-right: 4rem;
+    }
+    .rumah-12{
+      width: 22rem;
+      margin-left: 7rem;
+      margin-right: 7rem;
+    }
+    .rumah-13{
+      width: 11rem;
+      margin-left: 12.5rem;
+      margin-right: 12.5rem;
+    }
+    .rumah-14{
+      width: 24rem;
+      margin-top: 1rem;
+      margin-left: 6rem;
+      margin-right: 6rem;
+    }
+    .rumah-15{
+      width: 28rem;
+      margin-left: 5rem;
+      margin-right: 5rem;
+    }
+    .rumah-16{
+      width: 26rem;
+      margin-left: 5.5rem;
+      margin-right: 5.5rem;
+    }
+    .rumah-17{
+      width: 27rem;
+      margin-left: 5rem;
+      margin-right: 5rem;
+    }
+    .rumah-18{
+      width: 24rem;
+      margin-left: 6.5rem;
+      margin-right: 6.5rem;
+    }
+    .rumah-19{
+      width: 28rem;
+      margin-left: 4.5rem;
+      margin-right: 4.5rem;
+    }
+  }
+
+  @media screen and (max-width: 748px) {
+    .gallery-penjelasan-slider,
+    .gallery-rumah-title,
+    .pakaian-title-slider,
+    .makanan-title-slider{
+      margin-left: 5rem;
+    }
+    .item-slider-penjelasan{
+      width: 20rem;
+      font-size: 13px;
+    } 
+    .slider-makanan{
+      width: 18rem;
+      margin-left: 5rem;
+      margin-right: 5rem;
+    }
+    #sliders-button-3--prev,
+    #sliders-button-3--next{
+      margin-top: -1rem;
+    }
+    .slider-pakaian{
+      width: 24rem;
+      margin-top: -1rem;
+      margin-left: 2rem; margin-right: 2rem;
+    }
+    .button-link{
+      font-size: 14px;
+      width: 98px;
+      height: 40px;
+    }
+    .sliders-button img{
+      width: 13px;
+    }
+  }
+  
+  @media screen and (max-width: 748px) {
+    .rumah-1{
+      width: 18rem;
+      margin-left: 7rem;
+      margin-right: 7rem;
+    }
+    .rumah-2{
+      width: 21rem;
+      margin-top: -.5rem;
+      margin-left: 5.5rem;
+      margin-right: 5.5rem;
+    }
+    .rumah-3{
+      width: 20rem;
+      margin-top: -1rem;
+      margin-left: 6rem;
+      margin-right: 6rem;
+    }
+    .rumah-4{
+      width: 20rem;
+      margin-left: 5.5rem;
+      margin-right: 5.5rem;
+    }
+    .rumah-5{
+      width: 11rem;
+      margin-top: -3rem;
+      margin-left: 10rem;
+      margin-right: 10rem;
+    }
+    .rumah-6{
+      width: 17rem;
+      margin-left: 6.5rem;
+      margin-right: 6.5rem;
+    }
+    .rumah-7{
+      width: 23rem;
+      margin-left: 4rem;
+      margin-right: 4rem;
+    }
+    .rumah-8{
+      width: 22.5rem;
+      margin-left: 4.5rem;
+      margin-right: 4.5rem;
+    }
+    .rumah-9{
+      width: 17rem;
+      margin-left: 7rem;
+      margin-right: 7rem;
+    }
+    .rumah-10{
+      width: 23rem;
+      margin-top: 1rem;
+      margin-left: 4rem;
+      margin-right: 4rem;
+    }
+    .rumah-11{
+      width: 25rem;
+      margin-top: 2rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
+    .rumah-12{
+      width: 20rem;
+      margin-left: 5.5rem;
+      margin-right: 5.5rem;
+    }
+    .rumah-13{
+      width: 11rem;
+      margin-left: 9.5rem;
+      margin-right: 9.5rem;
+    }
+    .rumah-14{
+      width: 21rem;
+      margin-top: 1rem;
+      margin-left: 4.5rem;
+      margin-right: 4.5rem;
+    }
+    .rumah-15{
+      width: 24rem;
+      margin-left: 4rem;
+      margin-right: 4rem;
+    }
+    .rumah-16{
+      width: 24rem;
+      margin-left: 4rem;
+      margin-right: 4rem;
+    }
+    .rumah-17{
+      width: 23rem;
+      margin-left: 4rem;
+      margin-right: 4rem;
+    }
+    .rumah-18{
+      width: 22rem;
+      margin-left: 4.5rem;
+      margin-right: 4.5rem;
+    }
+    .rumah-19{
+      width: 23rem;
+      margin-left: 4rem;
+      margin-right: 4rem;
+    }
+  }
+
+  @media screen and (max-width: 631px) {
+    .gallery-penjelasan-slider,
+    .gallery-rumah-title,
+    .pakaian-title-slider,
+    .makanan-title-slider{
+      margin-left: 4rem;
+    }
+    .slider-item-penjelasan{
+      margin-left: 2.5rem;
+      margin-right: 2.5rem;
+    }
+    .item-slider-penjelasan{
+      width: 18rem;
+    }
+    .slider-makanan{
+      width: 16rem;
+      margin-left: 3.5rem;
+      margin-right: 3.5rem;
+    }
+    #sliders-button-3--prev,
+    #sliders-button-3--next{
+      margin-top: -1rem;
+    }
+    .slider-pakaian{
+      width: 22rem;
+      margin-top: -1rem;
+      margin-left: .5rem; margin-right: .5rem;
+    }
+    .button-link{
+      font-size: 14px;
+      width: 93px;
+      height: 40px;
+    }
+    .sliders-button img{
+      width: 13px;
+    }
+  }
+
+  @media screen and (max-width: 631px) {
+    .rumah-1{
+      width: 16rem;
+      margin-left: 4.5rem;
+      margin-right: 4.5rem;
+    }
+    .rumah-2{
+      width: 18rem;
+      margin-top: -.5rem;
+      margin-left: 4rem;
+      margin-right: 4rem;
+    }
+    .rumah-3{
+      width: 17.5rem;
+      margin-top: -1rem;
+      margin-left: 4rem;
+      margin-right: 4rem;
+    }
+    .rumah-4{
+      width: 17rem;
+      margin-top: 1rem;
+      margin-left: 4.5rem;
+      margin-right: 4.5rem;
+    }
+    .rumah-5{
+      width: 11rem;
+      margin-top: -4rem;
+      margin-left: 7rem;
+      margin-right: 7rem;
+    }
+    .rumah-6{
+      width: 16rem;
+      margin-top: 1rem;
+      margin-left: 4.5rem;
+      margin-right: 4.5rem;
+    }
+    .rumah-7{
+      width: 19rem;
+      margin-top: 1rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
+    .rumah-8{
+      width: 19rem;
+      margin-top: .5rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
+    .rumah-9{
+      width: 13rem;
+      margin-top: 1rem;
+      margin-left: 6rem;
+      margin-right: 6rem;
+    }
+    .rumah-10{
+      width: 19rem;
+      margin-top: 1rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
+    .rumah-11{
+      width: 19rem;
+      margin-top: 2rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
+    .rumah-12{
+      width: 19rem;
+      margin-left: 3.5rem;
+      margin-right: 3.5rem;
+    }
+    .rumah-13{
+      width: 11rem;
+      margin-left: 7rem;
+      margin-right: 7rem;
+    }
+    .rumah-14{
+      width: 17rem;
+      margin-top: 1rem;
+      margin-left: 4rem;
+      margin-right: 4rem;
+    }
+    .rumah-15{
+      width: 18rem;
+      margin-top: 1rem;
+      margin-left: 3.5rem;
+      margin-right: 3.5rem;
+    }
+    .rumah-16{
+      width: 20rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
+    .rumah-17{
+      width: 18rem;
+      margin-top: .5rem;
+      margin-left: 4rem;
+      margin-right: 4rem;
+    }
+    .rumah-18{
+      width: 19rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
+    .rumah-19{
+      width: 20rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
+  }
+
+  @media screen and (max-width: 523px) {
+    .suku{
+      font-size: 28px;
+    }
+    .items-title-gallery{
+      font-size: 22px;
+    }
+    .gallery-content-item-row{
+      margin-top: 2rem;
+    }
+    .gallery-penjelasan-slider,
+    .gallery-rumah-title,
+    .pakaian-title-slider,
+    .makanan-title-slider{
+      margin-left: 2.5rem;
+    }
+    .slider-item-penjelasan{
+      margin-left: 2.5rem;
+      margin-right: 2.5rem;
+    }
+    .item-slider-penjelasan{
+      width: 16rem;
+    }
+    .sliders-button img{
+      width: 10px;
+    }
+    .slider-makanan{
+      width: 14rem;
+      margin-top: 3rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
+    #sliders-button-3--prev,
+    #sliders-button-3--next{
+      margin-top: 2rem;
+    }
+    .slider-pakaian{
+      width: 19rem;
+      margin-top: 2rem;
+      margin-left: 0; margin-right: 0;
+    }
+    .button-link{
+      font-size: 12px;
+      width: 82px;
+      height: 40px;
+      margin-right: .5rem; margin-left: .5rem;
+    }
+  }
+
+  @media screen and (max-width: 523px) {
+    #sliders-button-2--prev,
+    #sliders-button-2--next{
+      margin-top: 2rem;
+    }
+    .rumah-1{
+      width: 14rem;
+      margin-top: 2rem;
+      margin-left: 3.5rem;
+      margin-right: 3.5rem;
+    }
+    .rumah-2{
+      width: 16rem;
+      margin-top: 1.5rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
+    .rumah-3{
+      width: 15.5rem;
+      margin-top: .5rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
+    .rumah-4{
+      width: 14rem;
+      margin-top: 2rem;
+      margin-left: 3.5rem;
+      margin-right: 3.5rem;
+    }
+    .rumah-5{
+      width: 9rem;
+      margin-top: -2rem;
+      margin-left: 6rem;
+      margin-right: 6rem;
+    }
+    .rumah-6{
+      width: 14rem;
+      margin-top: 1rem;
+      margin-left: 3.5rem;
+      margin-right: 3.5rem;
+    }
+    .rumah-7{
+      width: 17rem;
+      margin-top: 1rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+    .rumah-8{
+      width: 16rem;
+      margin-top: 1rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+    .rumah-9{
+      width: 12rem;
+      margin-top: -.5rem;
+      margin-left: 4rem;
+      margin-right: 4rem;
+    }
+    .rumah-10{
+      width: 16rem;
+      margin-top: 1rem;
+      margin-left: 2.5rem;
+      margin-right: 2.5rem;
+    }
+    .rumah-11{
+      width: 15rem;
+      margin-top: 3rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
+    .rumah-12{
+      width: 15rem;
+      margin-top: 2rem;
+      margin-left: 3.5rem;
+      margin-right: 3.5rem;
+    }
+    .rumah-13{
+      width: 11rem;
+      margin-left: 5rem;
+      margin-right: 5rem;
+    }
+    .rumah-14{
+      width: 15rem;
+      margin-top: 2rem;
+      margin-left: 4rem;
+      margin-right: 4rem;
+    }
+    .rumah-15{
+      width: 16rem;
+      margin-top: 2.5rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
+    .rumah-16{
+      width: 17rem;
+      margin-top: 2.5rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+    .rumah-17{
+      width: 15.5rem;
+      margin-top: 3.5rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
+    .rumah-18{
+      width: 16rem;
+      margin-top: 1rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
+    .rumah-19{
+      width: 18rem;
+      margin-top: 2rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 428px) {
+    .gallery-pr{
+      margin-bottom: 4rem;
+    }
+    .slider-item-penjelasan{
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+    }
+    .item-slider-penjelasan{
+      font-size: 12px;
+      width: 14rem;
+    }
+    .sliders-button img{
+      width: 9px;
+    }
+    .slider-makanan{
+      width: 12rem;
+      margin-top: 3rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+    #sliders-button-3--prev,
+    #sliders-button-3--next{
+      margin-top: 3rem;
+    }
+    .slider-pakaian{
+      width: 15rem;
+      margin-top: 3rem;
+      margin-left: 0; margin-right: 0;
+    }
+    .button-link{
+      font-size: 12px;
+      width: 75px;
+      height: 40px;
+      margin-right: .5rem; margin-left: .5rem;
+    }
+  }
+
+  @media screen and (max-width: 428px) {
+    #sliders-button-2--prev,
+    #sliders-button-2--next{
+      margin-top: 2rem;
+    }
+    .rumah-1{
+      width: 12rem;
+      margin-top: 2rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+    .rumah-2{
+      width: 14rem;
+      margin-top: 1.5rem;
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+    }
+    .rumah-3{
+      width: 11.5rem;
+      margin-top: .5rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+    .rumah-4{
+      width: 12rem;
+      margin-top: 2rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+    .rumah-5{
+      width: 9rem;
+      margin-top: -2rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
+    .rumah-6{
+      width: 12rem;
+      margin-top: 1rem;
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+    }
+    .rumah-7{
+      width: 12rem;
+      margin-top: 2rem;
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+    }
+    .rumah-8{
+      width: 13rem;
+      margin-top: 1rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+    .rumah-9{
+      width: 9rem;
+      margin-top: .5rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
+    .rumah-10{
+      width: 12rem;
+      margin-top: 2rem;
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+    }
+    .rumah-11{
+      width: 13rem;
+      margin-top: 3rem;
+      margin-left: 1.2rem;
+      margin-right: 1.2rem;
+    }
+    .rumah-12{
+      width: 11rem;
+      margin-top: 1rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+    .rumah-13{
+      width: 9rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
+    .rumah-14{
+      width: 12rem;
+      margin-top: 2rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+    .rumah-15{
+      width: 13rem;
+      margin-top: 2.5rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+    .rumah-16{
+      width: 14rem;
+      margin-top: 2rem;
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+    }
+    .rumah-17{
+      width: 12.5rem;
+      margin-top: 3.5rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+    .rumah-18{
+      width: 13rem;
+      margin-top: .5rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+    .rumah-19{
+      width: 13rem;
+      margin-top: 2.1rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 385px) {
+    .gallery-pc-link{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 7rem;
+    }
+    .galerry-pc-link-top, .galerry-pc-link-bottom{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+    .galerry-pc-link-top{
+      margin-bottom: 2rem;
+    }
+    .button-link{
+      font-size: 12px;
+      width: 90px;
+      height: 40px;
+      margin-right: .5rem; margin-left: .5rem;
+    }
+  }
+
+  @media screen and (max-width: 368px) {
+    .gallery-pr{
+      margin-bottom: 4rem;
+    }
+    .slider-item-penjelasan{
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+    }
+    .item-slider-penjelasan{
+      font-size: 11px;
+      letter-spacing: .25px;
+      width: 10rem;
+    }
+    .sliders-button img{
+      width: 7px;
+    }
+    .slider-makanan{
+      width: 10rem;
+      margin-top: 3rem;
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+    }
+    #sliders-button-3--prev,
+    #sliders-button-3--next{
+      margin-top: 3rem;
+    }
+    .slider-pakaian{
+      width: 15rem;
+      margin-top: 3rem;
+      margin-left: 0; margin-right: 0;
+    }
+    .suku{
+      font-size: 23px;
+    }
+    .items-title-gallery{
+      margin-top: .25rem;
+      font-size: 18px;
+    }
+    .gallery-content-item-row{
+      margin-top: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 368px) {
+    #sliders-button-2--prev,
+    #sliders-button-2--next{
+      margin-top: 2rem;
+    }
+    .rumah-1{
+      width: 10rem;
+      margin-top: 2rem;
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+    }
+    .rumah-2{
+      width: 11rem;
+      margin-top: 2rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+    .rumah-3{
+      width: 9.5rem;
+      margin-top: 1.5rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+    .rumah-4{
+      width: 10rem;
+      margin-top: 2rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+    .rumah-5{
+      width: 8rem;
+      margin-top: -1rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+    .rumah-6{
+      width: 10rem;
+      margin-top: 2rem;
+      margin-left: 1.2rem;
+      margin-right: 1.2rem;
+    }
+    .rumah-7{
+      width: 11rem;
+      margin-top: 2rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+    .rumah-8{
+      width: 11rem;
+      margin-top: 1rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+    .rumah-9{
+      width: 9rem;
+      margin-top: .5rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+    .rumah-10{
+      width: 11rem;
+      margin-top: 2rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+    .rumah-11{
+      width: 12rem;
+      margin-top: 2.5rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+    .rumah-12{
+      width: 10rem;
+      margin-top: 1rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+    .rumah-13{
+      width: 9rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+    .rumah-14{
+      width: 10rem;
+      margin-top: 3rem;
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+    }
+    .rumah-15{
+      width: 11rem;
+      margin-top: 2.5rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+    .rumah-16{
+      width: 11rem;
+      margin-top: 2rem;
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+    }
+    .rumah-17{
+      width: 10.5rem;
+      margin-top: 3rem;
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+    }
+    .rumah-18{
+      width: 11rem;
+      margin-top: .5rem;
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+    }
+    .rumah-19{
+      width: 11rem;
+      margin-top: 2.1rem;
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+    }
+  }
+
+  @media screen and (max-width: 300px) {
+    .gallery-penjelasan-slider,
+    .gallery-rumah-title,
+    .pakaian-title-slider,
+    .makanan-title-slider{
+      margin-left: 1.5rem;
+    }
+    .gallery-pr{
+      margin-bottom: 4rem;
+    }
+    .slider-item-penjelasan{
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+    }
+    .item-slider-penjelasan{
+      font-size: 11px;
+      letter-spacing: .25px;
+      width: 10rem;
+    }
+    .sliders-button img{
+      width: 7px;
+    }
+    .slider-makanan{
+      width: 9rem;
+      margin-top: 3rem;
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+    }
+    #sliders-button-3--prev,
+    #sliders-button-3--next{
+      margin-top: 3rem;
+    }
+    .slider-pakaian{
+      width: 12rem;
+      margin-top: 3rem;
+      margin-left: 0; margin-right: 0;
+    }
+    .suku{
+      font-size: 20px;
+    }
+    .items-title-gallery{
+      margin-top: .25rem;
+      font-size: 16px;
+    }
+    .gallery-content-item-row{
+      margin-top: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 300px) {
+    #sliders-button-2--prev,
+    #sliders-button-2--next{
+      margin-top: 2rem;
+    }
+    .rumah-1{
+      width: 9rem;
+      margin-top: 2rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+    .rumah-2{
+      width: 10rem;
+      margin-top: 2rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+    .rumah-3{
+      width: 8rem;
+      margin-top: 1.5rem;
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+    }
+    .rumah-4{
+      width: 9rem;
+      margin-top: 2rem;
+      margin-left: 1.2rem;
+      margin-right: 1.2rem;
+    }
+    .rumah-5{
+      width: 7rem;
+      margin-top: -1rem;
+      margin-left: 1.5rem;
+      margin-right: 1.5rem;
+    }
+    .rumah-6{
+      width: 9rem;
+      margin-top: 2rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+    .rumah-7{
+      width: 10rem;
+      margin-top: 2rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+    .rumah-8{
+      width: 10rem;
+      margin-top: 1rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+    .rumah-9{
+      width: 8rem;
+      margin-top: .5rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+    .rumah-10{
+      width: 10rem;
+      margin-top: 2rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+    .rumah-11{
+      width: 10rem;
+      margin-top: 2.5rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+    .rumah-12{
+      width: 9rem;
+      margin-top: 1rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+    .rumah-13{
+      width: 7rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+    .rumah-14{
+      width: 9rem;
+      margin-top: 3rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+    .rumah-15{
+      width: 9rem;
+      margin-top: 2.5rem;
+      margin-left: 1.2rem;
+      margin-right: 1.2rem;
+    }
+    .rumah-16{
+      width: 10rem;
+      margin-top: 2rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+    .rumah-17{
+      width: 9.5rem;
+      margin-top: 3rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+    .rumah-18{
+      width: 10rem;
+      margin-top: .5rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+    .rumah-19{
+      width: 10rem;
+      margin-top: 2.1rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  }
+
+  /*===== OUR TEAM JUMBOTRON =====*/
+  @media screen and (max-width: 768px) {
+    .ourteam-text-jr{
+      margin-bottom: 3rem;
+    }
+    .subtitle-ourteam-j{
+      font-size: 18px;
+      margin-bottom: 1rem;
+      letter-spacing: 3px;
+      cursor: default;
+    }
+    .rbl {
+      font-size: 62px;
+    }
+  }
+
+  @media screen and (max-width: 543px) {
+    .ourteam-text-jr{
+      margin-bottom: 2.5rem;
+    }
+    .subtitle-ourteam-j{
+      font-size: 16px;
+      margin-bottom: 1rem;
+      letter-spacing: 3px;
+      cursor: default;
+    }
+    .rbl {
+      font-size: 58px;
+    }
+    .scroll-down{
+      width: 12rem;
+      height: 3rem;
+      letter-spacing: 5px;
+    }
+  }
+
+  @media screen and (max-width: 423px) {
+    .ourteam-text-jr{
+      margin-bottom: 2rem;
+    }
+    .subtitle-ourteam-j{
+      font-size: 14px;
+      margin-bottom: 1rem;
+      letter-spacing: 3px;
+      cursor: default;
+    }
+    .rbl {
+      font-size: 52px;
+    }
+    .scroll-down{
+      width: 11.5rem;
+      height: 3rem;
+      letter-spacing: 5px;
+    }
+  }
+
+  @media screen and (max-width: 359px) {
+    .ourteam-text-jr{
+      margin-bottom: 1.5rem;
+    }
+    .subtitle-ourteam-j{
+      font-size: 14px;
+      margin-bottom: .5rem;
+      letter-spacing: 3px;
+      cursor: default;
+    }
+    .rbl {
+      font-size: 42px;
+    }
+    .scroll-down{
+      width: 11.5rem;
+      height: 3rem;
+      letter-spacing: 5px;
+    }
+  }
+
+  @media screen and (max-width: 280px) {
+    .ourteam-text-jr{
+      margin-bottom: 1.5rem;
+    }
+    .subtitle-ourteam-j{
+      font-size: 14px;
+      margin-bottom: .5rem;
+      letter-spacing: 3px;
+      cursor: default;
+    }
+    .rbl {
+      font-size: 38px;
+    }
+    .scroll-down{
+      width: 10rem;
+      height: 2.5rem;
+      letter-spacing: 5px;
+    }
+  }
+
+  /*===== OUR TEAM TEAM =====*/
+  @media screen and (max-width: 978px) {
+    .ourteam-team-1{
+      margin-bottom: 7rem;
+    }
+    .ourteam-team-2{
+      margin-bottom: 7rem;
+    }
+    .ourteam-team-3{
+      margin-bottom: 7rem;
+    }
+    .tr-img-1,
+    .tr-img-2,
+    .tr-img-3{
+      width: 30rem;
+      height: 22rem;
+    }
+    .tr-img-1{
+      background-size: 100%;
+    }
+    .tr-img-2{
+      background-size: 100%;
+    }
+    .tr-img-3{
+      background-size: 100%;
+    }
+    .nama-team-1,
+    .nama-team-2,
+    .nama-team-3{
+      font-size: 47px;
+    }
+    .role-team-1,
+    .role-team-2,
+    .role-team-3{
+      font-size: 17px;
+    }
+    .text-icon-1,
+    .text-icon-2,
+    .text-icon-3{
+      margin-top: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 798px) {
+    .ourteam-team-1{
+      margin-bottom: 7rem;
+    }
+    .ourteam-team-2{
+      margin-bottom: 7rem;
+    }
+    .ourteam-team-3{
+      margin-bottom: 7rem;
+    }
+    .tr-img-1,
+    .tr-img-2,
+    .tr-img-3{
+      width: 25rem;
+      height: 22rem;
+    }
+    .tr-img-1{
+      background-size: 100%;
+    }
+    .tr-img-2{
+      background-size: 100%;
+    }
+    .tr-img-3{
+      background-size: 100%;
+    }
+    .nama-team-1,
+    .nama-team-2,
+    .nama-team-3{
+      font-size: 40px;
+    }
+    .role-team-1,
+    .role-team-2,
+    .role-team-3{
+      font-size: 15px;
+    }
+    .tr-text-1,
+    .tr-text-3{
+      margin-left: 2rem;
+    }
+    .tr-text-2{
+      margin-right: 2rem;
+    }
+    .text-icon-1,
+    .text-icon-2,
+    .text-icon-3{
+      margin-top: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 658px) {
+    .ourteam-team-1{
+      margin-bottom: 5rem;
+    }
+    .ourteam-team-2{
+      margin-bottom: 5rem;
+    }
+    .ourteam-team-3{
+      margin-bottom: 5rem;
+    }
+    .tr-img-1,
+    .tr-img-2,
+    .tr-img-3{
+      width: 20rem;
+      height: 20rem;
+    }
+    .tr-img-1{
+      background-size: 100%;
+    }
+    .tr-img-2{
+      background-size: 100%;
+    }
+    .tr-img-3{
+      background-size: 100%;
+    }
+    .nama-team-1,
+    .nama-team-2,
+    .nama-team-3{
+      font-size: 40px;
+    }
+    .role-team-1,
+    .role-team-2,
+    .role-team-3{
+      font-size: 15px;
+    }
+    .tr-text-1,
+    .tr-text-3{
+      margin-left: 2rem;
+    }
+    .tr-text-2{
+      margin-right: 2rem;
+    }
+    .text-icon-1,
+    .text-icon-2,
+    .text-icon-3{
+      margin-top: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 570px) {
+    .tr-text-1-mobile,
+    .tr-text-3-mobile{
+      display: flex;
+      flex-direction: column;
+      opacity: 1;
+      margin-left: 3rem;
+      margin-bottom: 2rem;
+    }
+    .tr-text-1,
+    .tr-text-3{
+      display: none;
+      opacity: 0;
+    }
+    .ourteam-team-1{
+      margin-bottom: 4rem;
+    }
+    .ourteam-team-2{
+      margin-bottom: 4rem;
+    }
+    .ourteam-team-3{
+      margin-bottom: 0rem;
+    }
+    .tc-1,
+    .tc-2,
+    .tc-3{
+      display: flex;
+      flex-direction: column;
+      align-items: unset;
+    }
+    .tr-img-1,
+    .tr-img-2,
+    .tr-img-3{
+      width: 100vw;
+      height: 25rem;
+    }
+    .tr-img-1{
+      background-size: 100%;
+    }
+    .tr-img-2{
+      background-size: 100%;
+    }
+    .tr-img-3{
+      background-size: 100%;
+    }
+    .nama-team-1,
+    .nama-team-2,
+    .nama-team-3{
+      font-size: 40px;
+    }
+    .role-team-1,
+    .role-team-2,
+    .role-team-3{
+      font-size: 15px;
+    }
+    .tr-text-2{
+      margin-right: 3rem;
+      margin-bottom: 2rem;
+    }
+    .text-icon-1,
+    .text-icon-2,
+    .text-icon-3{
+      margin-top: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 421px) {
+    .tr-text-1-mobile,
+    .tr-text-3-mobile{
+      display: flex;
+      flex-direction: column;
+      opacity: 1;
+      margin-left: 3rem;
+      margin-bottom: 2rem;
+    }
+    .tr-text-1,
+    .tr-text-3{
+      display: none;
+      opacity: 0;
+    }
+    .ourteam-team-1{
+      margin-bottom: 4rem;
+    }
+    .ourteam-team-2{
+      margin-bottom: 4rem;
+    }
+    .ourteam-team-3{
+      margin-bottom: 0rem;
+    }
+    .tc-1,
+    .tc-2,
+    .tc-3{
+      display: flex;
+      flex-direction: column;
+      align-items: unset;
+    }
+    .tr-img-1,
+    .tr-img-2,
+    .tr-img-3{
+      width: 100vw;
+      height: 20rem;
+    }
+    .nama-team-1,
+    .nama-team-2,
+    .nama-team-3{
+      font-size: 40px;
+    }
+    .role-team-1,
+    .role-team-2,
+    .role-team-3{
+      font-size: 15px;
+    }
+    .tr-text-2{
+      margin-right: 3rem;
+      margin-bottom: 2rem;
+    }
+    .text-icon-1,
+    .text-icon-2,
+    .text-icon-3{
+      margin-top: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 345px) {
+    .tr-img-1,
+    .tr-img-2,
+    .tr-img-3{
+      width: 100vw;
+      height: 20rem;
+    }
+    .tr-text-1-mobile,
+    .tr-text-3-mobile,
+    .tr-text-2{
+      margin-bottom: 2rem;
+    }
+    .tr-text-1-mobile,
+    .tr-text-3-mobile{
+      margin-left: 1.5rem;
+    }
+    .tr-text-2{
+      margin-right: 1.5rem;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .tr-img-1,
+    .tr-img-2,
+    .tr-img-3{
+      width: 100vw;
+      height: 20rem;
+    }
+    .tr-text-1-mobile,
+    .tr-text-3-mobile,
+    .tr-text-2{
+      margin-bottom: 2rem;
+    }
+    .tr-img-1,
+    .tr-img-2,
+    .tr-img-3{
+      width: 100vw;
+      height: 17rem;
+    }
+  }
+
+  @media screen and (max-width: 290px) {
+    .tr-img-1,
+    .tr-img-2,
+    .tr-img-3{
+      width: 100vw;
+      height: 17rem;
+    }
+    .tr-text-1-mobile,
+    .tr-text-3-mobile,
+    .tr-text-2{
+      margin-bottom: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 278px) {
+    .tr-img-1,
+    .tr-img-2,
+    .tr-img-3{
+      width: 100vw;
+      height: 15rem;
+    }
+    .tr-text-1-mobile,
+    .tr-text-3-mobile,
+    .tr-text-2{
+      margin-bottom: 2rem;
+    }
+  }
+
+  /*===== FOOTER =====*/
+  @media screen and (max-width: 763px) {
+    .logo-footer{
+      font-size: 20px;
+    }
+    .footer__item{
+      font-size: 10px;
+      margin-left: .6rem;margin-right: .6rem;
+    }
+  }
+
+  @media screen and (max-width: 527px) {
+    .footer{
+      height: 15rem;
+    }
+    .footer-content{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+  }
+
+  @media screen and (max-width: 368px) {
+    .footer{
+      height: 15rem;
+    }
+    .footer-content{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+    .footer__item{
+      font-size: 10px;
+      letter-spacing: 1px;
+      margin-left: .5rem;
+      margin-right: .5rem;
+    }
+  }

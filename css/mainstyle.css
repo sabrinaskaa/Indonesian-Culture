@@ -1,0 +1,70 @@
+:root {
+    --main-color: #FFFFFF;
+    --dark-color: #000000;
+    --grey-color: #9B9B9B;
+    --gold-color: #DBA514;
+  }
+  
+  /*=== Fuente y tipografia ===*/
+  :root {
+    --body-font: 'Montserrat', sans-serif;
+    --navbar-logo: 1.5rem;
+    --navbar-item: 1rem;
+    --h2-font-size: 2rem;
+    --normal-font-size: 0.938rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    :root {
+      --navbar-logo: 1.2rem;
+    }
+  }
+
+  /*=== z index ===*/
+:root {
+    --z-back: -10;
+    --z-normal: 1;
+    --z-tooltip: 10;
+    --z-fixed: 100;
+    --z-modal: 1000;
+  }
+
+  :root {
+    --montsserrat-font: 'Montserrat', sans-serif;
+    --nunito-font: 'Nunito', sans-serif;
+  }
+  
+  /*===== BASE =====*/
+  *, ::before, ::after {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: 0;
+    font-family: var(--body-font);
+  }
+  
+  h1, h2, h3, p {
+    margin: 0;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
